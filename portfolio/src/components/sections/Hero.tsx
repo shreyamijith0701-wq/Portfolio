@@ -129,7 +129,7 @@ export default function Hero() {
                 boxShadow: '0 24px 48px -12px rgba(0,0,0,0.18)',
               }}>
               <img
-                src="/images/shreya.jpg"
+                src="images/shreya.jpg"
                 alt="Shreya Mijith Andezhath"
                 className="w-full h-full object-cover object-top"
                 style={{ mixBlendMode: 'normal' }}
