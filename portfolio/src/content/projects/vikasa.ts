@@ -14,7 +14,7 @@ export const vikasa: Project = {
   status: 'shipped',
   featured: true,
   order: 1,
-  heroImage: '/images/projects/vikasa/dam-visit.jpg',
+  heroImage: '/images/projects/vikasa/valley.jpg',
   thumbImage: '/images/projects/vikasa/market-1.jpg',
   accentColor: '#7a9e7e',
   impact: [
@@ -57,7 +57,7 @@ export const vikasa: Project = {
       phase: '04 — MACTS Data Strategy',
       title: 'Turning 113 villages of ledger data into an actionable operations system',
       body: 'Field officers were visiting villages on habit — high-performing villages got over-served, struggling ones got under-served. I spent days doing contextual inquiry with the Head of MACTS, reading handwritten Telugu ledgers. Built a 4-tier grading framework (Very Good / Good / Average / Poor) from three metrics per village, mapped to visit frequency. Poor villages get more visits. The system deliberately inverts the instinct to visit comfortable places.',
-      image: '/images/projects/vikasa/valley.jpg',
+      image: '/images/projects/vikasa/dam-visit.jpg',
     },
   ],
   outcomes: [

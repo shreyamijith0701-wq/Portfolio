@@ -39,19 +39,19 @@ export const shuttle: Project = {
       phase: '01 — Observation & Survey',
       title: 'Five users, three clear failure modes',
       body: 'We ran a Google Survey with 5 ASU students and conducted think-aloud observations at campus bus stops. Three out of five participants rated navigation as difficult or very difficult. None rated route information as clear. Key quotes surfaced: "Where\'s the time?", "Too many lines," "This doesn\'t look like it\'s moving." Users could complete the task — but at significant cognitive cost.',
-      image: '/images/projects/shuttle/hero.jpg',
+      image: '/images/projects/shuttle/screens_1.jpg',
     },
     {
       phase: '02 — HSE Framework Analysis',
       title: 'Five Human Systems Engineering principles applied',
       body: 'We evaluated the site against five HSE principles. Attention: cluttered maps with undifferentiated icons violated Wickens\' (2014) principle of distraction-free design. Memory: no route persistence or saved stops forced users to recall information from scratch each session. Visual Search: stops for different routes were indistinguishable — violating Treisman\'s Feature Integration Theory. Decision Making: bus popups showed only capacity, hiding direction, ETA, and on-time status — preventing informed decisions. Error Recovery: clicking non-interactive map areas returned zero feedback.',
-      image: '/images/projects/shuttle/screens.jpg',
+      image: '/images/projects/shuttle/screens_2.jpg',
     },
     {
       phase: '03 — Redesign & Iteration',
       title: 'Three rounds with explicit success criteria',
       body: 'Round 1 targeted information hierarchy: ETA must be readable immediately on route selection. Round 2 addressed route switching and map interactions — reducing critical path from 6 taps to 2. Round 3 surfaced accessibility failures in screen reader testing and introduced color-coded route markers with labeled stops. We didn\'t advance until each round passed its threshold.',
-      image: '/images/projects/shuttle/screens.jpg',
+      image: '/images/projects/shuttle/screens_3.jpg',
     },
   ],
   outcomes: [
