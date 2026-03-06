@@ -13,46 +13,18 @@ export default function AboutPage() {
         <div className="container-wide">
 
           {/* Header */}
-          <Reveal className="mb-20">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
-              <div className="max-w-xl">
-                <SectionLabel className="mb-5">About</SectionLabel>
-                <h1 className="font-display font-light mb-8"
-                  style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', letterSpacing: '-0.03em', color: 'var(--fg)', lineHeight: 1.05 }}>
-                  {about.headline}
-                </h1>
-                <div className="space-y-5">
-                  {about.story.map((para, i) => (
-                    <p key={i} className="text-lg leading-relaxed" style={{ color: 'var(--muted)', fontWeight: 300 }}>
-                      {para}
-                    </p>
-                  ))}
-                </div>
-              </div>
-              {/* Second photo */}
-              <div className="relative">
-                <div className="rounded-2xl overflow-hidden"
-                  style={{
-                    border: '1px solid var(--border)',
-                    background: 'color-mix(in srgb, var(--surface) 60%, transparent)',
-                    backdropFilter: 'blur(12px)',
-                    padding: '8px',
-                  }}>
-                  <img
-                    src="/images/shreya-2.jpg"
-                    alt="Shreya Mijith Andezhath"
-                    className="w-full rounded-xl object-cover"
-                    style={{ aspectRatio: '4/5', objectPosition: 'top' }}
-                  />
-                </div>
-                <div className="absolute -bottom-4 -right-4 text-xs font-mono px-3 py-1.5 rounded-full"
-                  style={{
-                    background: 'var(--accent)',
-                    color: 'var(--bg)',
-                  }}>
-                  Tempe, AZ · 2025
-                </div>
-              </div>
+          <Reveal className="mb-20 max-w-3xl">
+            <SectionLabel className="mb-5">About</SectionLabel>
+            <h1 className="font-display font-light mb-8"
+              style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', letterSpacing: '-0.03em', color: 'var(--fg)', lineHeight: 1.05 }}>
+              {about.headline}
+            </h1>
+            <div className="space-y-5">
+              {about.story.map((para, i) => (
+                <p key={i} className="text-lg leading-relaxed" style={{ color: 'var(--muted)', fontWeight: 300 }}>
+                  {para}
+                </p>
+              ))}
             </div>
           </Reveal>
 
@@ -166,7 +138,7 @@ export default function AboutPage() {
                   Download my resume for a complete view of experience, education, and projects.
                 </p>
               </div>
-              <a href={site.links.resume} download="Shreya_Mijith_Andezhath_Resume.pdf"
+              <a href={site.links.resume} target="_blank" rel="noopener noreferrer"
                 className="btn-primary shrink-0" style={{ textDecoration: 'none', whiteSpace: 'nowrap' }}>
                 Download resume ↓
               </a>

@@ -60,7 +60,7 @@ export default function Hero() {
               View my work
               <span className="group-hover:translate-x-1 transition-transform">→</span>
             </Link>
-            <a href={site.links.resume} download="Shreya_Mijith_Andezhath_Resume.pdf"
+            <a href={site.links.resume} target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full text-sm font-medium transition-colors hover:border-[var(--fg)]"
               style={{ border: '1px solid var(--border)', color: 'var(--fg)', padding: '0.75rem 1.75rem', background: 'transparent' }}>
               Resume ↓
@@ -129,7 +129,7 @@ export default function Hero() {
                 boxShadow: '0 24px 48px -12px rgba(0,0,0,0.18)',
               }}>
               <img
-                src="images/shreya.jpg"
+                src="/images/shreya.jpg"
                 alt="Shreya Mijith Andezhath"
                 className="w-full h-full object-cover object-top"
                 style={{ mixBlendMode: 'normal' }}

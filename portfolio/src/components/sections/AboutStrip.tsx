@@ -5,7 +5,7 @@ import { about } from '../../content/about'
 import { site } from '../../content/site'
 
 const credItems = [
-  { label: 'Current', value: 'Blue Horse Digital' },
+  { label: 'Current', value: 'Blue Horse Digital / DAU' },
   { label: 'Education', value: 'MS UX @ ASU' },
   { label: 'Background', value: 'B.Des Product Design, Woxsen' },
   { label: 'Specialty', value: 'Systems thinking + research' },
