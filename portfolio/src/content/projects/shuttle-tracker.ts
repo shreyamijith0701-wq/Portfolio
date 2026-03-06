@@ -1,0 +1,72 @@
+import type { Project } from './types'
+
+export const shuttle: Project = {
+  slug: 'shuttle-tracker',
+  title: 'ASU Shuttle Tracker',
+  subtitle: 'Redesigning a broken transit experience for 77,000 students',
+  shortDesc: 'HSE-grounded UX research and redesign of ASU\'s shuttle tracker — 5 principles, 3 iteration rounds, +34% task success rate.',
+  year: '2025',
+  role: 'UX Designer & Researcher',
+  team: 'Solo',
+  timeline: '10 weeks · Spring 2025 · HSE 542',
+  tools: ['Figma', 'Google Surveys', 'Contextual Inquiry', 'Heuristic Evaluation'],
+  tags: ['Mobile UX', 'Accessibility', 'HSE Research', 'Interaction Design'],
+  status: 'shipped',
+  featured: true,
+  order: 3,
+  heroImage: '/images/projects/shuttle/hero.jpg',
+  thumbImage: '/images/projects/shuttle/hero.jpg',
+  accentColor: '#8B0000',
+  impact: [
+    { label: 'Task success', value: '+34%' },
+    { label: 'Time on task', value: '−73%' },
+    { label: 'HSE principles', value: '5' },
+  ],
+  problem: 'The ASU Shuttle Tracker (asu-shuttles.rider.peaktransit.com) serves students, faculty, and staff across all campuses — but users reported the site as difficult to navigate, unclear on bus routes, and nearly unusable on mobile. Students were missing buses because the interface failed them at the moment of highest need: while already moving.',
+  users: [
+    { name: 'Daily commuters', need: 'Reliable ETA visible in under 5 seconds from app open' },
+    { name: 'Students with disabilities', need: 'Screen-reader compatible, high-contrast, motor-accessible' },
+    { name: 'First-time users', need: 'Immediate clarity on which route serves their destination' },
+  ],
+  constraints: [
+    'No back-end changes — redesign must work with existing data API',
+    'Must conform to ASU brand guidelines (maroon #8B0000)',
+    'Must pass WCAG 2.1 AA accessibility standards',
+    'Academic context — 10 week sprint with 5-person survey sample',
+  ],
+  processSections: [
+    {
+      phase: '01 — Observation & Survey',
+      title: 'Five users, three clear failure modes',
+      body: 'We ran a Google Survey with 5 ASU students and conducted think-aloud observations at campus bus stops. Three out of five participants rated navigation as difficult or very difficult. None rated route information as clear. Key quotes surfaced: "Where\'s the time?", "Too many lines," "This doesn\'t look like it\'s moving." Users could complete the task — but at significant cognitive cost.',
+      image: '/images/projects/shuttle/screens_1.jpg',
+    },
+    {
+      phase: '02 — HSE Framework Analysis',
+      title: 'Five Human Systems Engineering principles applied',
+      body: 'We evaluated the site against five HSE principles. Attention: cluttered maps with undifferentiated icons violated Wickens\' (2014) principle of distraction-free design. Memory: no route persistence or saved stops forced users to recall information from scratch each session. Visual Search: stops for different routes were indistinguishable — violating Treisman\'s Feature Integration Theory. Decision Making: bus popups showed only capacity, hiding direction, ETA, and on-time status — preventing informed decisions. Error Recovery: clicking non-interactive map areas returned zero feedback.',
+      image: '/images/projects/shuttle/screens_2.jpg',
+    },
+    {
+      phase: '03 — Redesign & Iteration',
+      title: 'Three rounds with explicit success criteria',
+      body: 'Round 1 targeted information hierarchy: ETA must be readable immediately on route selection. Round 2 addressed route switching and map interactions — reducing critical path from 6 taps to 2. Round 3 surfaced accessibility failures in screen reader testing and introduced color-coded route markers with labeled stops. We didn\'t advance until each round passed its threshold.',
+      image: '/images/projects/shuttle/screens_3.jpg',
+    },
+  ],
+  outcomes: [
+    'Task success rate: 54% → 88% in usability testing',
+    'Time-to-ETA: 42 seconds → 11 seconds average',
+    'Critical path reduced: 6 taps → 2 taps',
+    'All screens pass WCAG 2.1 AA audit',
+    'Mobile-responsive layout resolving overlapping text and layout distortion',
+    'Real-time notification layer designed for \"bus arriving in 3 mins\" alerts',
+  ],
+  reflection: 'The HSE framework forced rigor I wouldn\'t have applied intuitively. Analyzing attention, memory, visual search, decision-making, and error recovery as separate failure modes — each with a theoretical basis — made the problem legible. The version that tested best had half the features of our first wireframes. The research didn\'t just validate ideas; it told us which ones to cut.',
+  nextSteps: [
+    'Prototype live-data integration with Passio GO API',
+    'Run dedicated accessibility sessions with screen reader users',
+    'Design Google Maps walking-directions integration to nearest stop',
+  ],
+  links: [],
+}

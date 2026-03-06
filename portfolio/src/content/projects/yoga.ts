@@ -1,0 +1,70 @@
+import type { Project } from './types'
+
+export const yoga: Project = {
+  slug: 'arizona-yoga-co',
+  title: 'Arizona Yoga Co.',
+  subtitle: 'Evaluating the gap between mission and digital experience',
+  shortDesc: 'Heuristic evaluation of a donation-based yoga studio — mapping usability failures to real conversion loss.',
+  year: '2025',
+  role: 'UX Researcher (Team of 3)',
+  team: 'Solo',
+  timeline: '4 weeks',
+  tools: ['Figma', 'FigJam', 'UserTesting'],
+  tags: ['UX Research', 'Heuristic Evaluation', 'UX Audit'],
+  status: 'shipped',
+  featured: true,
+  order: 2,
+  heroImage: '/images/projects/yoga/hero.jpg',
+  thumbImage: '/images/projects/yoga/thumb.jpg',
+  accentColor: '#a07050',
+  impact: [
+    { label: 'Issues identified', value: '10' },
+    { label: 'Critical severity', value: '3' },
+    { label: 'Heuristics applied', value: '2 frameworks' },
+  ],
+  problem: 'Arizona Yoga Co. exists to remove financial barriers to yoga. Their website was accidentally building new ones. The site technically worked — users could eventually find a class, figure out the donation model, complete a booking. The damage was in the "eventually."',
+  users: [
+    { name: 'First-time visitors', need: 'Immediately understand what the studio offers and how to show up' },
+    { name: 'Returning students', need: 'Quickly find and book a specific class format without friction' },
+    { name: 'Donors & supporters', need: 'Understand the donation model and feel confident giving' },
+  ],
+  constraints: [
+    'Donation-based model — no paywall, no checkout optimization levers',
+    'Expert evaluation only — no access to user sessions or analytics',
+    'Must produce severity ratings defensible without behavioral data',
+  ],
+  processSections: [
+    {
+      phase: '01 — Framework Selection',
+      title: 'Two lenses, one evaluation',
+      body: 'We applied Nielsen\'s 10 Heuristics for structural classification and Krug\'s Don\'t Make Me Think as a behavioral lens. Nielsen gives you the taxonomy. Krug gives you the human cost. Together they let you answer both "what is technically wrong" and "what does a confused user actually experience."',
+      image: '/images/projects/yoga/schedule.jpg',
+    },
+    {
+      phase: '02 — Independent Audit',
+      title: 'Evaluate first, compare second',
+      body: 'Each evaluator conducted an independent review before we compared findings. This reduces anchoring bias and produces a more complete issue inventory. We then mapped findings to heuristics, assigned severity scores, and reconciled disagreements with explicit reasoning.',
+      image: '/images/projects/yoga/offerings.jpg',
+    },
+    {
+      phase: '03 — Severity Calibration',
+      title: 'Business impact as the severity filter',
+      body: '"This costs you bookings" lands differently than "this violates Nielsen Heuristic #1." We grounded every severity rating in a concrete business consequence — conversion loss, abandonment risk, trust erosion — so findings were immediately actionable in a stakeholder conversation.',
+      image: '/images/projects/yoga/hero.jpg',
+    },
+  ],
+  outcomes: [
+    'Severity 4: Homepage has no primary CTA — users arrive at their highest intent moment with no visible path to a class',
+    'Severity 4: Booking failures are silent — failed reservations produce no error message, no explanation, no next step',
+    'Severity 3: "Class Schedule" CTA only shows studio classes despite 4 distinct format types offered',
+    'Severity 3: Navigation items look identical but behave differently — users cannot predict what a click will do',
+    'Donation model — the studio\'s most compelling differentiator — buried mid-scroll rather than surfaced in the hero',
+  ],
+  reflection: 'Heuristic evaluation is only as useful as your severity calibration. The real skill is arguing why something is a Severity 4 versus a Severity 1 — and making that argument in terms a non-designer cares about. The honest gap: severity ratings were expert-judgment calls. A 5-person usability test on the booking flow would have given us behavioral evidence, not just heuristic inference.',
+  nextSteps: [
+    'Run moderated usability sessions on the booking flow to validate severity assignments with behavioral data',
+    'A/B test donation model placement — hero versus mid-page — to quantify conversion impact',
+    'Prototype unified schedule view consolidating all 4 class formats into single calendar',
+  ],
+  links: [{ label: 'View live site', url: 'https://arizonayogaco.com' }],
+}

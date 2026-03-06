@@ -1,0 +1,33 @@
+import type { Project } from './types'
+
+export const aeria: Project = {
+  slug: 'aeria',
+  title: 'AERIA',
+  subtitle: 'Spatial workspace for seamless context reconstruction',
+  shortDesc: 'A new kind of workspace that remembers where you were — solving the 23-minute cost of interruption for knowledge workers.',
+  year: '2026',
+  role: 'Founder · Designer · Researcher',
+  team: 'Solo',
+  timeline: 'In development',
+  tools: ['Figma', 'React', 'React Flow'],
+  tags: ['Startup', 'Spatial UX', 'Knowledge Work'],
+  status: 'coming-soon',
+  featured: true,
+  order: 4,
+  heroImage: '/images/projects/aeria/hero.jpg',
+  thumbImage: '/images/projects/aeria/thumb.jpg',
+  accentColor: '#5b8fa8',
+  impact: [
+    { label: 'Discovery interviews', value: '9+' },
+    { label: 'Avg context recon time', value: '23 min' },
+    { label: 'Status', value: 'Building' },
+  ],
+  problem: 'Every interruption costs knowledge workers an average of 23 minutes to reconstruct context. AERIA is a spatial workspace that captures not just what you\'re working on, but the relationships and state around it — so returning from an interruption takes seconds, not minutes.',
+  users: [],
+  constraints: [],
+  processSections: [],
+  outcomes: [],
+  reflection: '',
+  nextSteps: [],
+  links: [],
+}

@@ -1,0 +1,75 @@
+import type { Project } from './types'
+
+export const vikasa: Project = {
+  slug: 'vikasa',
+  title: 'Vikasa NGO',
+  subtitle: 'Designing for the Last Mile — 4 systems, 1 designer, 6 months',
+  shortDesc: 'Embedded systems design across Araku Valley — website, packaging, 3D irrigation modeling, and data operations strategy for 2,000+ farming families.',
+  year: '2024',
+  role: 'Sole Embedded Designer',
+  team: 'Solo embedded + NGO staff',
+  timeline: '6 months · Nov 2023 – Feb 2024',
+  tools: ['Figma', 'Blender', 'Adobe Illustrator', 'Excel'],
+  tags: ['Systems Design', 'Field Research', 'Branding', 'Social Impact'],
+  status: 'shipped',
+  featured: true,
+  order: 1,
+  heroImage: '/images/projects/vikasa/valley.jpg',
+  thumbImage: '/images/projects/vikasa/market-1.jpg',
+  accentColor: '#7a9e7e',
+  impact: [
+    { label: 'Farming families', value: '2,000+' },
+    { label: 'Villages graded', value: '113' },
+    { label: 'Parallel systems built', value: '4' },
+  ],
+  problem: 'Vikasa had been doing extraordinary work for 36 years. Their website undermined it. Their packaging made their products invisible at retail. Their irrigation infrastructure was unknown to funders because it existed only as a hand-drawn schematic. Their field operations ran on memory and instinct across 113 villages. Four separate design briefs — one systemic failure of organizational legibility.',
+  users: [
+    { name: 'Tribal farming families', need: 'Packaging that earns shelf presence — better sales means direct family income' },
+    { name: 'Donors & funders', need: 'A website and materials credible enough to justify a grant cycle' },
+    { name: 'MACTS field officers', need: 'A data system that tells them which villages need attention — not which ones feel comfortable to visit' },
+  ],
+  constraints: [
+    'No design infrastructure — no brand system, no assets, no documentation',
+    'Single-sheet sticker constraint: front and back packaging on one print run',
+    'FSSAI regulatory compliance required in packaging from the start',
+    'Four months, four workstreams, zero design support',
+  ],
+  processSections: [
+    {
+      phase: '01 — Website Redesign',
+      title: 'From inaccessible to authoritative',
+      body: 'Heuristic evaluation against WCAG 2.1 AA uncovered 5 critical failures: navigation contrast below AA thresholds, logo invisible in the header, green text on a green footer background, an ungridded layout burying 36 years of impact, and pixelated photography signaling under-resourced when the reality was the opposite. I codified the first-ever 8-colour brand system and rebuilt from contrast-first logic.',
+      image: '/images/projects/vikasa/market-1.jpg',
+    },
+    {
+      phase: '02 — Ameya Naturals Packaging',
+      title: 'The label tells the true story, or it tells the wrong one',
+      body: 'Three concepts. Concept 03 — illustrated woman farmer in tribal art tradition — was selected not for aesthetics but for truth. Women are the primary agricultural workers in Araku Valley. Putting a landscape on the label would have erased them. It was also the strongest strategic position: tribal art from the Eastern Ghats is a differentiation asset competitors cannot authentically replicate. Trilingual (English, Telugu, Hindi), FSSAI-compliant, solved within a single-sheet sticker constraint.',
+      image: '/images/projects/vikasa/packaging.jpg',
+    },
+    {
+      phase: '03 — 3D Infrastructure Model',
+      title: 'The desk model was wrong. The field visit fixed it.',
+      body: 'I built a first-pass model from Vikasa\'s schematic. It looked accurate on screen. Then I visited Panasapettu Dam. The diagram showed the logic. It couldn\'t show scale, terrain, underground pipeline depth, or the rough-cut stone check dam built into a river bend. I rebuilt significant portions after the field visit. The delta between the two models is the evidence of field research.',
+      image: '/images/projects/vikasa/landscape.jpg',
+    },
+    {
+      phase: '04 — MACTS Data Strategy',
+      title: 'Turning 113 villages of ledger data into an actionable operations system',
+      body: 'Field officers were visiting villages on habit — high-performing villages got over-served, struggling ones got under-served. I spent days doing contextual inquiry with the Head of MACTS, reading handwritten Telugu ledgers. Built a 4-tier grading framework (Very Good / Good / Average / Poor) from three metrics per village, mapped to visit frequency. Poor villages get more visits. The system deliberately inverts the instinct to visit comfortable places.',
+      image: '/images/projects/vikasa/dam-visit.jpg',
+    },
+  ],
+  outcomes: [
+    '5 critical UX issues resolved — first-ever 8-colour brand system codified for Vikasa',
+    '10+ product variants designed with full colour-coding system, FSSAI compliance, trilingual labels',
+    '3D model rebuilt from field visit — terrain, underground cross-sections, accurate dam geometry',
+    '113 villages graded for the first time — first structured visit scheduling in cooperative history',
+  ],
+  reflection: 'The desk model was fundamentally wrong until I visited the dam. The MACTS framework would have been built on incorrect assumptions if I hadn\'t spent days in the ledgers. No brief, no secondary source replaces primary contact with the reality you\'re designing for. That discipline — go to the source before committing to a representation — is not a Blender principle. It\'s a research principle that operates across every medium.',
+  nextSteps: [
+    'Run structured consumer testing with urban buyers at Hyderabad point-of-sale to validate packaging concept selection with behavioral evidence',
+    'Prototype lightweight offline-capable mobile interface so MACTS data system is usable at the moment of field decision — not just before leaving the office',
+  ],
+  links: [],
+}

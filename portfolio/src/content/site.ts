@@ -1,0 +1,20 @@
+export const site = {
+  name: 'Shreya Mijith Andezhath',
+  initials: 'SMA',
+  role: 'UX Designer & Researcher',
+  tagline: 'I design systems, not just screens.',
+  description: 'MS UX student at ASU. I work at the intersection of research rigor, systems thinking, and precision craft — designing experiences that feel effortless because the thinking underneath them was not.',
+  location: 'Tempe, AZ',
+  email: 'shreyamijith0701@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/shreya-mijith-andezhath/',
+  behance: 'https://www.behance.net/amshreya',
+  github: 'https://github.com/shreya-ma',
+  resume: '/Shreya_Mijith_Andezhath_Resume.pdf',
+  links: {
+    resume: '/Shreya_Mijith_Andezhath_Resume.pdf',
+    linkedin: 'https://www.linkedin.com/in/shreya-mijith-andezhath-121b19200/',
+    behance: 'https://www.behance.net/amshreya',
+    github: 'https://github.com/shreya-ma',
+  },
+  availability: 'Open to full-time roles · Graduating Dec 2026',
+}
