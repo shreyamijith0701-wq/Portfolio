@@ -7,7 +7,7 @@ export const shuttle: Project = {
   shortDesc: 'HSE-grounded UX research and redesign of ASU\'s shuttle tracker — 5 principles, 3 iteration rounds, +34% task success rate.',
   year: '2025',
   role: 'UX Designer & Researcher',
-  team: 'Shreya Andezhath · Sreya Suresh',
+  team: 'Solo',
   timeline: '10 weeks · Spring 2025 · HSE 542',
   tools: ['Figma', 'Google Surveys', 'Contextual Inquiry', 'Heuristic Evaluation'],
   tags: ['Mobile UX', 'Accessibility', 'HSE Research', 'Interaction Design'],

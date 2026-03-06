@@ -3,7 +3,7 @@ import type { Project } from './types'
 export const vikasa: Project = {
   slug: 'vikasa',
   title: 'Vikasa NGO',
-  subtitle: 'Designing for the Last Mile — 4 systems, 1 designer, 4 months',
+  subtitle: 'Designing for the Last Mile — 4 systems, 1 designer, 6 months',
   shortDesc: 'Embedded systems design across Araku Valley — website, packaging, 3D irrigation modeling, and data operations strategy for 2,000+ farming families.',
   year: '2024',
   role: 'Sole Embedded Designer',

@@ -7,7 +7,7 @@ export const yoga: Project = {
   shortDesc: 'Heuristic evaluation of a donation-based yoga studio — mapping usability failures to real conversion loss.',
   year: '2025',
   role: 'UX Researcher (Team of 3)',
-  team: 'Shreya Andezhath, Thiruvenkata Saha Rajan, Anirudha Vinod Palaskar',
+  team: 'Solo',
   timeline: '4 weeks',
   tools: ['Figma', 'FigJam', 'UserTesting'],
   tags: ['UX Research', 'Heuristic Evaluation', 'UX Audit'],
