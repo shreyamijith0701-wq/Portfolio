@@ -11,7 +11,7 @@ export default defineConfig({
   },
   // For GitHub Pages: set base to your repo name
   // e.g. base: '/your-repo-name/'
-  base: '/',
+  base: '',
   build: {
     outDir: 'dist',
     sourcemap: false,

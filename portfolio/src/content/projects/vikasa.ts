@@ -14,8 +14,8 @@ export const vikasa: Project = {
   status: 'shipped',
   featured: true,
   order: 1,
-  heroImage: '/images/projects/vikasa/hero.jpg',
-  thumbImage: '/images/projects/vikasa/thumb.jpg',
+  heroImage: '/images/projects/vikasa/dam-visit.jpg',
+  thumbImage: '/images/projects/vikasa/market-1.jpg',
   accentColor: '#7a9e7e',
   impact: [
     { label: 'Farming families', value: '2,000+' },
@@ -39,7 +39,7 @@ export const vikasa: Project = {
       phase: '01 — Website Redesign',
       title: 'From inaccessible to authoritative',
       body: 'Heuristic evaluation against WCAG 2.1 AA uncovered 5 critical failures: navigation contrast below AA thresholds, logo invisible in the header, green text on a green footer background, an ungridded layout burying 36 years of impact, and pixelated photography signaling under-resourced when the reality was the opposite. I codified the first-ever 8-colour brand system and rebuilt from contrast-first logic.',
-      image: '/images/projects/vikasa/website.jpg',
+      image: '/images/projects/vikasa/market-1.jpg',
     },
     {
       phase: '02 — Ameya Naturals Packaging',
@@ -51,13 +51,13 @@ export const vikasa: Project = {
       phase: '03 — 3D Infrastructure Model',
       title: 'The desk model was wrong. The field visit fixed it.',
       body: 'I built a first-pass model from Vikasa\'s schematic. It looked accurate on screen. Then I visited Panasapettu Dam. The diagram showed the logic. It couldn\'t show scale, terrain, underground pipeline depth, or the rough-cut stone check dam built into a river bend. I rebuilt significant portions after the field visit. The delta between the two models is the evidence of field research.',
-      image: '/images/projects/vikasa/model.jpg',
+      image: '/images/projects/vikasa/landscape.jpg',
     },
     {
       phase: '04 — MACTS Data Strategy',
       title: 'Turning 113 villages of ledger data into an actionable operations system',
       body: 'Field officers were visiting villages on habit — high-performing villages got over-served, struggling ones got under-served. I spent days doing contextual inquiry with the Head of MACTS, reading handwritten Telugu ledgers. Built a 4-tier grading framework (Very Good / Good / Average / Poor) from three metrics per village, mapped to visit frequency. Poor villages get more visits. The system deliberately inverts the instinct to visit comfortable places.',
-      image: '/images/projects/vikasa/data.jpg',
+      image: '/images/projects/vikasa/valley.jpg',
     },
   ],
   outcomes: [

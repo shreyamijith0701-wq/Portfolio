@@ -60,7 +60,7 @@ export default function Hero() {
               View my work
               <span className="group-hover:translate-x-1 transition-transform">→</span>
             </Link>
-            <a href={site.links.resume} target="_blank" rel="noopener noreferrer"
+            <a href={site.links.resume} download="Shreya_Mijith_Andezhath_Resume.pdf"
               className="inline-flex items-center gap-2 rounded-full text-sm font-medium transition-colors hover:border-[var(--fg)]"
               style={{ border: '1px solid var(--border)', color: 'var(--fg)', padding: '0.75rem 1.75rem', background: 'transparent' }}>
               Resume ↓

@@ -54,7 +54,7 @@ export default function Nav() {
             ))}
 
             {/* Resume CTA */}
-            <a href={site.links.resume} target="_blank" rel="noopener noreferrer"
+            <a href={site.links.resume} download="Shreya_Mijith_Andezhath_Resume.pdf"
               className="text-xs font-mono uppercase tracking-wider px-3 py-1.5 rounded-full transition-all duration-200"
               style={{
                 border: '1px solid var(--border)',
@@ -118,7 +118,7 @@ export default function Nav() {
                 {l.label}
               </Link>
             ))}
-            <a href={site.links.resume} target="_blank" rel="noopener noreferrer"
+            <a href={site.links.resume} download="Shreya_Mijith_Andezhath_Resume.pdf"
               className="text-sm font-mono uppercase tracking-wider" style={{ color: 'var(--accent)' }}>
               Resume ↓
             </a>

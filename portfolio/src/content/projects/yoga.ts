@@ -38,19 +38,19 @@ export const yoga: Project = {
       phase: '01 — Framework Selection',
       title: 'Two lenses, one evaluation',
       body: 'We applied Nielsen\'s 10 Heuristics for structural classification and Krug\'s Don\'t Make Me Think as a behavioral lens. Nielsen gives you the taxonomy. Krug gives you the human cost. Together they let you answer both "what is technically wrong" and "what does a confused user actually experience."',
-      image: '/images/projects/yoga/framework.jpg',
+      image: '/images/projects/yoga/schedule.jpg',
     },
     {
       phase: '02 — Independent Audit',
       title: 'Evaluate first, compare second',
       body: 'Each evaluator conducted an independent review before we compared findings. This reduces anchoring bias and produces a more complete issue inventory. We then mapped findings to heuristics, assigned severity scores, and reconciled disagreements with explicit reasoning.',
-      image: '/images/projects/yoga/audit.jpg',
+      image: '/images/projects/yoga/offerings.jpg',
     },
     {
       phase: '03 — Severity Calibration',
       title: 'Business impact as the severity filter',
       body: '"This costs you bookings" lands differently than "this violates Nielsen Heuristic #1." We grounded every severity rating in a concrete business consequence — conversion loss, abandonment risk, trust erosion — so findings were immediately actionable in a stakeholder conversation.',
-      image: '/images/projects/yoga/severity.jpg',
+      image: '/images/projects/yoga/hero.jpg',
     },
   ],
   outcomes: [

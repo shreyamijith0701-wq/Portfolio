@@ -65,7 +65,7 @@ export default function ContactPage() {
 
           {/* Resume download */}
           <Reveal className="mb-8">
-            <a href={site.links.resume} target="_blank" rel="noopener noreferrer"
+            <a href={site.links.resume} download="Shreya_Mijith_Andezhath_Resume.pdf"
               className="flex items-center justify-between p-6 rounded-xl group transition-all duration-200"
               style={{
                 background: 'color-mix(in srgb, var(--surface) 70%, transparent)',

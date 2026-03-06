@@ -27,7 +27,7 @@ export default function CTA() {
               <a href={`mailto:${site.email}`} className="btn-primary" style={{ textDecoration: 'none', whiteSpace: 'nowrap' }}>
                 Get in touch →
               </a>
-              <a href={site.links.resume} target="_blank" rel="noopener noreferrer"
+              <a href={site.links.resume} download="Shreya_Mijith_Andezhath_Resume.pdf"
                 className="btn-secondary" style={{ textDecoration: 'none', whiteSpace: 'nowrap', textAlign: 'center' }}>
                 Download resume ↓
               </a>
