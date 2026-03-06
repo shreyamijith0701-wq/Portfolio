@@ -12,7 +12,7 @@ export const site = {
   resume: '/Shreya_Mijith_Andezhath_Resume.pdf',
   links: {
     resume: '/Shreya_Mijith_Andezhath_Resume.pdf',
-    linkedin: 'https://www.linkedin.com/in/shreya-mijith-andezhath/',
+    linkedin: 'https://www.linkedin.com/in/shreya-mijith-andezhath-121b19200/',
     behance: 'https://www.behance.net/amshreya',
     github: 'https://github.com/shreya-ma',
   },
