@@ -8,7 +8,7 @@ export const vikasa: Project = {
   year: '2024',
   role: 'Sole Embedded Designer',
   team: 'Solo embedded + NGO staff',
-  timeline: '4 months · Nov 2023 – Feb 2024',
+  timeline: '6 months · Aug 2023 – Feb 2024',
   tools: ['Figma', 'Blender', 'Adobe Illustrator', 'Excel'],
   tags: ['Systems Design', 'Field Research', 'Branding', 'Social Impact'],
   status: 'shipped',
