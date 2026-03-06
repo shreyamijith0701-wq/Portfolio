@@ -15,7 +15,7 @@ export const aeria: Project = {
   featured: true,
   order: 4,
   heroImage: 'images/projects/aeria/hero.jpg',
-  thumbImage: 'images/projects/aeria/thumb.jpg',
+  thumbImage: '/Portfolio/public/images/projects/aeria/thumb.jpg',
   accentColor: '#5b8fa8',
   impact: [
     { label: 'Discovery interviews', value: '9+' },

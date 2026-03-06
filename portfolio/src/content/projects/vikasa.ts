@@ -39,7 +39,7 @@ export const vikasa: Project = {
       phase: '01 — Website Redesign',
       title: 'From inaccessible to authoritative',
       body: 'Heuristic evaluation against WCAG 2.1 AA uncovered 5 critical failures: navigation contrast below AA thresholds, logo invisible in the header, green text on a green footer background, an ungridded layout burying 36 years of impact, and pixelated photography signaling under-resourced when the reality was the opposite. I codified the first-ever 8-colour brand system and rebuilt from contrast-first logic.',
-      image: 'images/projects/vikasa/market-1.jpg',
+      image: '/Portfolio/public/images/projects/vikasa/market-1.jpg',
     },
     {
       phase: '02 — Ameya Naturals Packaging',
