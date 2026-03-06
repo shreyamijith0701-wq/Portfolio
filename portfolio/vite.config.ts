@@ -9,8 +9,6 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  // For GitHub Pages: set base to your repo name
-  // e.g. base: '/your-repo-name/'
   base: '/Portfolio/',
   build: {
     outDir: 'dist',
